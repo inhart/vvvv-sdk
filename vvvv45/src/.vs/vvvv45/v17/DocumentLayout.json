@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\vvvv\\vvvv-sdk\\vvvv45\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA8072CA-3343-4199-AC22-62B9E352BAE8}|vvvv45.csproj|c:\\vvvv\\vvvv-sdk\\vvvv45\\src\\vvvv45.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FA8072CA-3343-4199-AC22-62B9E352BAE8}|vvvv45.csproj|solutionrelative:vvvv45.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vvvv45",
+              "DocumentMoniker": "C:\\vvvv\\vvvv-sdk\\vvvv45\\src\\vvvv45.csproj",
+              "RelativeDocumentMoniker": "vvvv45.csproj",
+              "ToolTip": "C:\\vvvv\\vvvv-sdk\\vvvv45\\src\\vvvv45.csproj",
+              "RelativeToolTip": "vvvv45.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T16:50:29.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

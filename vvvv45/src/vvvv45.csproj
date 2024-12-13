@@ -33,10 +33,8 @@
     <DeployExclude Condition=" '$(Platform)' == 'x64' ">$(DeployExclude);$(RootDir)lib\thirdparty\x86\**\*.*;$(RootDir)lib\thirdparty\**\*.x86.exe;$(RootDir)lib\nodes\directshowfilter\*.*;$(RootDir)lib\nodes\freeframes\*.*</DeployExclude>
     <DeployReadOnlyFiles>lib\nodes\*.*;lib\nugets\VL.*</DeployReadOnlyFiles>
     <DeployHiddenFiles>vvvv.exe.config;vvvv.jdbg</DeployHiddenFiles>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
   </ItemGroup>
@@ -85,6 +83,17 @@
     <ProjectReference Include="nodes\plugins\NativePlugins.csproj">
       <Private>False</Private>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   
   <Import Project="vvvv45.targets" />
